@@ -39,7 +39,7 @@ justify-content: center;
         margin-bottom: 1rem;
         font-family: sans-serif;
         color: var(--text);
-        animation: fadeIn 5s ease forwards;
+        animation: fadeIn 3s ease forwards;
     }
 
     & p {
@@ -48,7 +48,7 @@ justify-content: center;
         text-justify: center ;
         font-family: sans-serif;
         color: var(--text-muted);
-        animation: fadeIn 5s ease forwards;
+        animation: fadeIn 3s ease forwards;
         animation-delay: 1s;
     }
 
@@ -60,6 +60,7 @@ justify-content: center;
         width: 100%;
         height: 100%;
         z-index: -1;
+        filter: opacity(0.5);
         mask-image: linear-gradient(to bottom, rgba(16, 25, 34, 1) 5%, rgb(0, 0, 0) 80%);
     }
 }
@@ -71,7 +72,7 @@ section {
     & svg {
         opacity: 0;
         color: var(--text);
-        animation: fadeIn 5s ease forwards;
+        animation: fadeIn 3s ease forwards;
         animation-delay: 2s;
     }
 }
